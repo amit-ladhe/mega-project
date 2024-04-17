@@ -1,0 +1,34 @@
+.login-cont{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.my-form{
+     width: 35%;
+     height: auto;
+     padding: 20px;
+     background-color: rgb(46, 41, 41);
+     color: white;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.web-logo {
+    width: 150px;
+    margin-bottom:20px;
+
+}
+
+.btn-cont {
+        width: 100%;
+        text-align: left;
+}
+
