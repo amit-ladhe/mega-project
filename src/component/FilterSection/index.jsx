@@ -61,7 +61,7 @@ const {onChangeEmpType} = props;
       }
       const response = await fetch(apiUrl, options)
       const data = await response.json()
-      console.log(data)
+      // console.log(data)
       if (response.ok === true) {
         setvalue({...allValues,profileDetails:data.profile_details})
       }
@@ -76,6 +76,8 @@ const {onChangeEmpType} = props;
 
     const onChangeemployeeType = (event)=>{
       onChangeEmpType(event.target.value,event.target.checked)
+
+      console.log(event)
     }
     
 
