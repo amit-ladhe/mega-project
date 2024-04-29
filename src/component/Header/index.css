@@ -1,0 +1,22 @@
+.my-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(57, 51, 51);
+    padding: 15px;
+}
+
+.header-logo{
+    width: 130px;
+}
+
+li{
+    padding: 0px 15px;
+    list-style: none;
+}
+
+.home-jobs {
+      display:flex;
+      color: white;
+}
