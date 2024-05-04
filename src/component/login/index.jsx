@@ -106,7 +106,7 @@ const Login = () => {
             Submit
           </button>
 
-          <p className="e-msg">{...allValues.errorMsg}</p>
+          <p className="e-msg">{allValues.errorMsg}</p>
         </div>
       </form>
     </div>
